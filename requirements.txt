@@ -1,0 +1,7 @@
+django
+python-dotenv
+aiortc
+av
+numpy
+openai
+gtts

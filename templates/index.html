@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebRTC Speech AI</title>
+  </head>
+  <body>
+    <main>
+      <h1>Talk to AI</h1>
+      <p>Stream your microphone to a Django + aiortc backend and hear the reply.</p>
+      <button id="startButton" type="button">Start Talking</button>
+      <p id="status">Idle</p>
+      <audio id="aiAudio" autoplay controls></audio>
+    </main>
+    <script src="/static/webrtc.js"></script>
+  </body>
+</html>
